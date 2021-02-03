@@ -1,0 +1,26 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Payment</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+</head>
+
+<body>
+  <script src="js/scripts.js"></script>
+  <div id="billflow-embed"></div>
+<script>
+    window.billflowSettings = {
+        "billing_page_id": "HZ0Hj3ly6jkETSGFBZoX",
+        "email": "// change this to your customer's email"
+};
+    (function () { var s = document.createElement('script'); s.src = 'https://js.billflow.io/billflow-embed.js'; s.async = true; s.type = 'text/javascript'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x); })();
+</script>
+</body>
+</html>
